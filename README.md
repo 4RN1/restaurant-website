@@ -37,6 +37,7 @@ The project demonstrates **DOM manipulation, event handling, and dynamic content
 - **Interactive opening hours** display on hover
 - Responsive design using **Flexbox** and **CSS Grid**
 - Footer cloned dynamically for pages that need it
+- (**UPDATE**) Added functionality to contact form after submiting im getting info via gmail (Using emailJS)
 
 ---
 
