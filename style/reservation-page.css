@@ -1,0 +1,52 @@
+.reservation-page {
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto;
+  gap: 4rem;
+}
+.right h2 {
+  margin-bottom: 1.6rem;
+  font-size: 3rem;
+}
+
+.right .contact-text {
+  color: var(--text-muted);
+  font-size: 2rem;
+  line-height: 160%;
+}
+
+.group-date {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-date input {
+  width: 20rem;
+  text-align: center;
+  
+  
+}
+
+.group-date .group {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  margin:0 1rem;
+  
+  
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);   
+  cursor: pointer;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);   
+  cursor: pointer;
+}
+
+b {
+  color: var(--text-primary-color);
+}

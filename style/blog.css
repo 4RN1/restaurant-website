@@ -1,0 +1,33 @@
+.blog-page {
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 4rem;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5rem;  
+  gap: 2rem;
+}
+
+
+
+.date {
+  color: var(--text-primary-color);
+  font-size: 1.6rem;
+}
+
+.description { 
+  font-size: 1.6rem;
+  color: #FFF;
+  opacity: 0.6;
+  width: 36.8rem;
+}
+
+.blog-box img {
+  width: 30rem ;
+  border-radius: 2rem;
+}

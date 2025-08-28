@@ -1,0 +1,234 @@
+@font-face {
+  font-family: 'Bitter Rose';
+  src: url('../assets/fonts/BitterRoseDEMO-Regular.woff2') format('woff2'),
+       url('../assets/fonts/BitterRoseDEMO-Regular.woff') format('woff'),
+       url('../assets/fonts/Bitter%20Rose%20DEMO.otf') format('opentype'); 
+ 
+}
+
+@font-face {
+   font-family: 'Chillax';
+  src: url('../assets/fonts/Chillax-Regular.woff2') format('woff2'),
+       url('../assets/fonts/Chillax-Regular.woff') format('woff');
+}
+
+
+
+
+
+:root {
+  --styled-font :  'Bitter Rose', sans-serif;
+  --first-font : "Chillax";
+  --main-heading-size : 160px;
+  --secondary-heading-size : 80px;
+  --third-size:64px;
+  --text-size: 17px;
+  --text-primary-color:#FACE8D;
+  --white-default:#FFF;
+  --text-inverse:#081212;
+  --background-default:#050505;
+  --text-muted: rgba(255, 255, 255, 0.80);
+
+}
+
+html {
+  font-size: 10px;
+ 
+  scroll-behavior: smooth;
+
+}
+
+body {
+  min-height: 100vh;
+  
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chillax';
+}
+
+.shop-page , .blog-page, .contact-page, .reservation-page,  .menu-page{
+  display: none;
+  
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--first-font);
+  margin-top: 15rem;
+  
+ 
+  
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: #FFF;
+  border-radius: 10rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  gap: 0.3rem;
+}
+
+
+
+
+
+
+.navbar li {
+  padding: 1.6rem;
+  font-size: var(--text-size);
+  color: var(--text-inverse);
+  border-radius: 10rem;
+  padding: 1.6rem;
+  cursor: pointer;
+  font-weight: 600;
+   
+  
+
+}
+
+
+.clock-svg {
+  margin: 1rem;
+  border-radius: 10%;
+  padding: 1rem;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.clock-svg:hover {
+   background-color: #ece8e8;
+  transition: 0.2s;
+  
+}
+
+.book-btn {
+  display: flex;
+align-items: center;
+justify-content: center;
+padding: 1.6rem 2.4rem;
+gap: 10px;
+border-radius: 10rem;
+background: #111;
+color: var(--white-default);
+border: none;
+font-size: 1.8rem;
+letter-spacing: 0.1rem;
+cursor: pointer;
+}
+
+
+
+
+
+.active {
+   background-color: #ece8e8;
+}
+
+.navbar li:hover {
+   background-color: #ece8e8;
+  transition: 0.2s;
+}
+
+
+.openHours-container {
+    position: absolute;
+    top: 48%;
+    left: 35.5%;
+    display:block;
+    width: 25rem;
+    background-color:var(--white-default);
+    padding: 1.6rem 2.4rem;
+    color: var(--text-inverse);
+    border-radius: 1rem;
+    gap: 8px;
+    opacity: 0;
+    transition: 0.4s ease-out;
+    font-size: var(--text-size);
+   
+}
+
+.openHours-container h4 {
+  font-size: 2rem;
+  font-weight: 500;
+   
+}
+
+.open-closed p{
+  display: flex;
+  justify-content: space-between; 
+   margin: 1.5rem 0;
+  
+}
+
+.day {
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10rem;
+  padding: 80px 96px;
+  font-size:1.3rem;
+  color: var(--white-default);
+ }
+
+
+
+
+.authors img{
+  margin-bottom: 3.2rem;
+}
+
+.footer-text {
+  display: flex;
+  color: rgba(255, 255, 255, 0.6); /* semi-transparent text using color */
+  margin-bottom: 1.6rem;
+}
+
+.footer-text .author {
+  color: rgba(255, 255, 255, 0.6); /* start semi-transparent */
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.footer-text .author:hover {
+  color:var(--text-primary-color); /* fully bright on hover */
+}
+.pages h4{
+  font-size: var(--text-size);
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+
+.pages ul {
+  color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+  opacity: 1;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+}
+
+.pages li:hover {
+  color:var(--text-primary-color); /* fully bright on hover */
+
+}

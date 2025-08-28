@@ -1,0 +1,129 @@
+.contact-page {
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto;
+  gap: 4rem;
+  
+}
+
+.left {
+  height: 100vh;
+  background: url(../assets/images/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-subtext {
+  font-family: var(--styled-font);
+  color: var(--text-primary-color);
+  font-weight: 400;
+  line-height: 90%;
+}
+
+.left h1 {
+  text-align: center;
+  color: var(--white-default);
+  font-size: var(--secondary-heading-size);
+  font-weight: 600;
+  line-height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+.contact-navbar .openHours-container {
+
+   position: absolute;
+  top: 60%;  
+  left: 10%;       
+  
+
+}
+
+.right {
+  height: 100vh;
+  font-size: var(--text-size);
+  color: var(--white-default);
+  max-width: 84rem;
+  padding: 7rem 8rem;
+  
+}
+
+.contact-page .contact-text{
+  color: var(--text-muted);
+  font-size: var(--text-size);
+  line-height: 160%;
+}
+
+.right form  {
+   row-gap: 4.8rem;
+   margin-top: 4.8rem;
+}
+
+
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  
+ 
+
+
+
+  
+}
+
+.right form input {
+  
+  padding: 1.6rem 2.4rem;
+  background-color: transparent;
+  color: var(--white-default);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius:1rem ;
+  font-size: 1.6rem;
+}
+
+.right form label {
+  margin-bottom: -3rem;
+}
+
+.right textarea {
+  background-color: transparent;
+  padding: 1.6rem 2.4rem;
+  font-size: 1.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius:1rem ;
+  height: 20rem;
+  resize: none;
+  color: var(--white-default);
+
+}
+
+
+.right::placeholder {
+  color:var(--text-muted);
+}
+
+
+.right #submitBtn {
+  background-color: var(--text-primary-color);
+  color: var(--text-inverse);
+  border-radius: 50rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+ 
+
+
+}
+
+#submitBtn:hover {
+  background-color: var(--text-inverse);
+  color: var(--text-primary-color);
+  border: none;
+  transition:0.125s;
+}

@@ -1,0 +1,112 @@
+/* *{
+  outline: 1px solid red;
+} */
+
+body {
+background: var(--background-default, #050505);
+ 
+}
+
+
+
+.starting-page {
+  background: url(../assets/images/c71d3da8ac9fabf83d2109b8a9face7f2bb32f59.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+.logo {
+   display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  position: relative;
+  cursor: pointer;
+   
+
+}
+
+
+.landing-page {
+ 
+  width: 100%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+  
+  
+}
+
+.head-text {
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 13rem;
+}
+
+
+
+.head-text span{
+  color: var(--text-primary-color);
+  font-family: var(--styled-font);
+  font-size: var(--secondary-heading-size);
+  line-height: 90%;
+
+  
+}
+
+.head-text  h1 {
+  color: var(--white-default);
+  font-size: var(--main-heading-size);
+  font-family: var(--first-font);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  line-height: 90%;
+  margin-bottom: 3rem;
+
+}
+
+.head-text p {
+
+  line-height: 160%;
+  font-family: var(--first-font);
+  max-width: 60rem;
+  text-align: center;
+ 
+}
+
+#header-small-text {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+
+.landing-page {
+  font-size: var(--text-size);
+  color: var(--white-default);
+  
+  
+}
+
+
+
+
+.landing-page .logo {
+  margin-top: 10rem;
+}
+
+
+

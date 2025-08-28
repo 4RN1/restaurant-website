@@ -1,0 +1,55 @@
+
+.shop-page {
+
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto;
+  gap: 2rem;
+}
+
+.g-left {
+   
+  background: url(../assets/images/shop-page.jpg);
+  height: 100vh;
+  top: 0;
+  position: sticky;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g-right {
+  padding: 96px 80px;
+  font-size: 2rem;
+  color: #FFF;
+
+}
+
+.giftCards {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+  margin: 2rem 0 4.8rem 0;
+}
+
+.giftCards .group2 {
+  flex-direction: column;
+}
+
+.giftCards .group2  span {
+  color: var(--text-primary-color);
+  font-size: var(--text-size);
+}
+
+.giftCards h3 {
+  font-size: 2.5rem;
+  font-family: var(--first-font);
+  color: var(--white-default);
+}
+
+.giftCards p {
+  color: var(--white-default);
+  opacity: 0.6;
+  font-size: 1.6rem;
+  line-height: 160%;
+  max-width:36.8rem ;
+}

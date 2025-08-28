@@ -1,0 +1,177 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+.menu-page {
+ 
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto;
+  gap: 4rem;
+  
+  
+}
+
+
+
+.g-left {
+   height: 100vh;
+   top: 0;
+  position: sticky;
+  background: url(../assets/images/menu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+
+}
+
+
+.g-left h1 {
+  text-align: center;
+  color: var(--white-default);
+  font-size: var(--secondary-heading-size);
+  font-weight: 600;
+  line-height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+}
+
+
+
+.menu-navbar .openHours-container {
+
+   position: absolute;
+  top: -220%;       
+  left: 3%;       
+  
+
+}
+
+
+
+.menu-navbar {
+  position: relative;
+}
+
+
+.g-right {
+  min-height: 100vh;
+  padding: 80px 96px;
+}
+
+
+.menu-categories {
+   position: sticky;
+  
+  top: 0;
+  background-color: var(--background-default);
+  opacity: 1;
+  z-index: 10;
+}
+
+
+.menu-categories ul{
+  display: flex;
+  flex-direction: row;
+  padding: 24px 32px;
+  gap: 4.8rem;
+  font-size: var(--text-size);
+  list-style: none;
+  justify-content: center;
+  
+   
+  
+}
+
+
+.menu-categories a {
+  color: var(--text-muted);
+  text-decoration: none;
+  
+}
+
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  
+  row-gap: 9.6rem;
+}
+
+.starters , .breakfast, .lunch, .drinks {
+  max-width: 63.8rem;
+}
+
+
+.foods {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  padding: 1.6rem;
+  color: var(--white-default);
+  font-weight: 400;
+  gap:2.4rem ;
+}
+
+h3 {
+  font-size: var(--third-size);
+  font-family: var(--styled-font);
+  color: var(--text-primary-color);
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.foods .price , h5 {
+  font-size: var(--text-size);
+  
+}
+
+
+
+.foods p {
+  font-size: 1.3rem;
+}
+
+.description {
+  opacity: 0.6;
+}
+
+.foods img {
+  border-radius: 5%;
+}
+
+.menu-active a{
+  color: var(--text-primary-color);
+}
+
+
+.sale {
+  text-decoration: line-through;
+  margin-right: 0.8rem;
+}
+
+.of-the-day {
+  border: 1px solid var(--text-primary-color);
+  border-radius: 1.6rem;
+}
+
+.foods .badge {
+  position: absolute;
+  bottom: 8.5rem;
+  right: 1.7rem;
+  background-color: #f0c985; 
+  color: #111;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.8rem 1.2rem;
+  border-radius: 12px; 
+  white-space: nowrap;
+}
