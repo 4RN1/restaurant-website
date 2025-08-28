@@ -1,4 +1,7 @@
-<img width="1897" height="903" alt="blog" src="https://github.com/user-attachments/assets/2af04bcb-425d-445e-93f5-4fbf750df0b4" /># 🍽️ Dynamic Restaurant Website
+# 🍽️ Dynamic Restaurant Website
+<img width="1913" height="906" alt="Screenshot 2025-08-28 173455" src="https://github.com/user-attachments/assets/ce945b7a-c54d-443e-b9e8-d03f74e5e84a" />
+
+
 
 ![HTML](https://img.shields.io/badge/HTML5-orange?logo=html5) ![CSS](https://img.shields.io/badge/CSS3-blue?logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
@@ -8,9 +11,11 @@
 
 This is a **dynamic single-page restaurant website** built with **HTML, CSS, and vanilla JavaScript**.  
 It allows navigation between multiple sections (Home, Menu, Shop, Blog, Contact, Reservation) without reloading the page.  
-Blog posts and menu items are dynamically generated using JavaScript arrays.  
-
+Blog posts are dynamically generated using JavaScript arrays.  
 The project demonstrates **DOM manipulation, event handling, and dynamic content rendering**, making it a perfect portfolio piece.
+
+**Note: project is not finished need more features (active visual presentation, from validation and etc.)**
+
 
 ---
 
@@ -39,15 +44,18 @@ The project demonstrates **DOM manipulation, event handling, and dynamic content
 ## Screenshots
 
 ### Menu Page
-![Menu Page]
+
+<img width="1900" height="906" alt="menu" src="https://github.com/user-attachments/assets/db79043e-0a16-49b9-b35e-a03e4940c431" />
 
 
 ### Blog Page
-![Blog Page]
+
+<img width="1897" height="903" alt="blog" src="https://github.com/user-attachments/assets/517e7fe6-dcad-4a2b-9cec-5e986b6f5141" />
 
 
 ### Reservation Page
-![Reservation Page]
+
+<img width="1918" height="906" alt="booking" src="https://github.com/user-attachments/assets/4b3250b0-e7f0-4107-814f-7a92824ba0c3" />
 
 
 ## Installation
@@ -63,8 +71,15 @@ open index.html
 
 ```
 
+## License
+**Font - Bitter Rose**
+THIS IS FREE VERSION - ONLY FREE FOR PERSONAL USE.
+If you want full license or for commercial use. Including all alternates, multilanguage, or full glyps, please contact saridezra@gmail.com
+- link here (https://www.dafont.com/bitter-rose.font)
+
+
 ## Author
-- Code: Anri Begeladze
-- Design Inspiration: Pawel Cola
-- Powered By: Webflow
+### - Code: Anri Begeladze
+### - Design Inspiration: Pawel Cola
+### - Powered By: Webflow
 
