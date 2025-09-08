@@ -6,6 +6,9 @@
 ![HTML](https://img.shields.io/badge/HTML5-orange?logo=html5) ![CSS](https://img.shields.io/badge/CSS3-blue?logo=css3) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
 ---
+## 🚀 Live Demo
+👉 [View Website](https://restaurant-website-zeta-eight.vercel.app)
+
 
 ## Overview
 
